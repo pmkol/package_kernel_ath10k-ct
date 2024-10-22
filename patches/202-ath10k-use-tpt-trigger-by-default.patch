@@ -40,7 +40,7 @@ Signed-off-by: Mathias Kresin <dev@kresin.me>
  	if (ret)
 --- a/ath10k-6.10/mac.c
 +++ b/ath10k-6.10/mac.c
-@@ -11632,7 +11632,7 @@ int ath10k_mac_register(struct ath10k *a
+@@ -11631,7 +11631,7 @@ int ath10k_mac_register(struct ath10k *a
  	ar->hw->weight_multiplier = ATH10K_AIRTIME_WEIGHT_MULTIPLIER;
  
  #ifdef CPTCFG_MAC80211_LEDS
